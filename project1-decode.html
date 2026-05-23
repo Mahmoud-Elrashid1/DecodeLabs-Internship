@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DecodeLabs — Digital Craft</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="project1-decode.css">
+</head>
+
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ══════ HEADER ══════ -->
+  <header>
+    <div class="nav-container">
+      <a href="#" class="logo" aria-label="DecodeLabs Home">
+        <span>D</span>ecodeLabs
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="nav-cta">Get Started</a>
+      </nav>
+
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-nav" id="hamburger-btn">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- mobile menu -->
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#roadmap">Roadmap</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- ══════ HERO ══════ -->
+  <section class="hero" aria-labelledby="hero-heading">
+    <div class="hero-inner">
+      <div class="fade-in">
+        <p class="hero-badge">Batch 2026 · Full Stack Track</p>
+        <h1 id="hero-heading">
+          Build the<br/>
+          <em>Future</em> of<br/>
+          Digital Craft.
+        </h1>
+        <p>Master responsive frontend development through hands-on industrial training. No frameworks — just pure HTML, CSS, and JavaScript done right.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">Explore Project 1</a>
+          <a href="#roadmap"  class="btn-ghost">View Roadmap</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><strong>6</strong><span>Execution Steps</span></div>
+          <div class="stat"><strong>3</strong><span>Core Pillars</span></div>
+          <div class="stat"><strong>100%</strong><span>No Frameworks</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual fade-in" style="transition-delay:.2s">
+        <div class="device-mockup" role="img" aria-label="Website wireframe illustration">
+          <div class="device-bar">
+            <div class="device-dot"></div>
+            <div class="device-dot"></div>
+            <div class="device-dot"></div>
+          </div>
+          <div class="device-screen">
+            <div class="ds-line"></div>
+            <div class="ds-line short"></div>
+            <div class="ds-line med"></div>
+            <div class="ds-grid">
+              <div class="ds-card"></div>
+              <div class="ds-card"></div>
+              <div class="ds-card"></div>
+              <div class="ds-card"></div>
+            </div>
+            <div class="ds-line short"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════ MAIN CONTENT ══════ -->
+  <main id="main-content">
+
+    <!-- ── Content Grid: Articles ── -->
+    <section id="projects" aria-labelledby="projects-heading">
+      <p class="section-label">Project 1</p>
+      <h2 class="section-title" id="projects-heading">Your First Milestone</h2>
+      <p class="section-desc">Craft a responsive frontend interface that adapts flawlessly across every device — mobile, tablet, and desktop.</p>
+
+      <div class="content-grid" style="margin-top:2rem;">
+        <article class="card fade-in">
+          <div class="card-icon" aria-hidden="true">🏗️</div>
+          <p class="card-tag">Pillar 1</p>
+          <h3>Strategy & Blueprint</h3>
+          <p>Use empathy maps to uncover user pain points, then translate insights into low-fidelity wireframes focused on hierarchy and mobile-first flow.</p>
+          <a href="#roadmap" class="card-link" aria-label="Learn more about Strategy">Learn more</a>
+        </article>
+
+        <article class="card fade-in" style="transition-delay:.1s">
+          <div class="card-icon" aria-hidden="true">🎨</div>
+          <p class="card-tag">Pillar 2</p>
+          <h3>Visual Design & Aesthetics</h3>
+          <p>Apply the 2025 palette — Mocha Mousse, Ethereal Blue, and Moonlit Grey — with warm, grounded typography using Montserrat and Open Sans.</p>
+          <a href="#skills" class="card-link" aria-label="Learn more about Visual Design">Learn more</a>
+        </article>
+
+        <article class="card fade-in" style="transition-delay:.2s">
+          <div class="card-icon" aria-hidden="true">⚙️</div>
+          <p class="card-tag">Pillar 3</p>
+          <h3>Implementation</h3>
+          <p>Build with semantic HTML5 landmarks, CSS Grid for macro layouts, Flexbox for components, and vanilla JS for state and interactivity.</p>
+          <a href="#roadmap" class="card-link" aria-label="Learn more about Implementation">Learn more</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ── Quote ── -->
+    <section class="quote-section fade-in" aria-label="Guiding philosophy">
+      <p class="quote-text">Your code determines who has access to information and how the world experiences it. You are the Architect.</p>
+      <div class="quote-author">
+        <div class="author-avatar" aria-hidden="true">DL</div>
+        <div>
+          <p class="author-name">DecodeLabs</p>
+          <p class="author-role">Industrial Training Kit · Batch 2026</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Two-col: Skills + Roadmap ── -->
+    <section id="skills" class="two-col-section" aria-labelledby="skills-heading">
+      <div>
+        <p class="section-label">Skill Stack</p>
+        <h2 class="section-title" id="skills-heading">Your Raw Materials</h2>
+        <p class="section-desc">Three tools, no frameworks. Master the fundamentals before anything else.</p>
+
+        <div class="sidebar-panel fade-in" style="margin-top:1.5rem;">
+          <h2>Technology Proficiency</h2>
+          <div class="skill-item">
+            <div class="skill-header"><span>HTML5 — The Infrastructure</span><span>Semantic Landmarks</span></div>
+            <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span>CSS3 — The Skin</span><span>Grid · Flexbox · Queries</span></div>
+            <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span>JavaScript — The Logic</span><span>State · Interactivity</span></div>
+            <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span>Accessibility — WCAG</span><span>Universal Access</span></div>
+            <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="sidebar-panel fade-in" style="transition-delay:.15s;">
+          <h2 id="roadmap">Execution Roadmap</h2>
+          <ol class="steps-list" aria-label="Project execution steps">
+            <li class="step">
+              <div class="step-num done" aria-label="Step 1 complete">1</div>
+              <div class="step-body"><strong>Discovery</strong><span>Define "How Might We" problem</span></div>
+            </li>
+            <li class="step">
+              <div class="step-num" aria-label="Step 2">2</div>
+              <div class="step-body"><strong>Wireframe</strong><span>Grayscale, mobile-first layout</span></div>
+            </li>
+            <li class="step">
+              <div class="step-num" aria-label="Step 3">3</div>
+              <div class="step-body"><strong>Semantics</strong><span>HTML5 landmark elements</span></div>
+            </li>
+            <li class="step">
+              <div class="step-num" aria-label="Step 4">4</div>
+              <div class="step-body"><strong>Style</strong><span>CSS Grid/Flex + 2025 palette</span></div>
+            </li>
+            <li class="step">
+              <div class="step-num" aria-label="Step 5">5</div>
+              <div class="step-body"><strong>Logic</strong><span>State management & interactivity</span></div>
+            </li>
+            <li class="step">
+              <div class="step-num" aria-label="Step 6">6</div>
+              <div class="step-body"><strong>Audit</strong><span>LCP/CLS & accessibility check</span></div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Dark Feature Band ── -->
+    <section class="feature-band fade-in" aria-labelledby="standards-heading">
+      <div>
+        <p class="section-label">Standards</p>
+        <h2 class="section-title" id="standards-heading">Built to Last</h2>
+        <p class="section-desc">Every line of code measured against professional-grade criteria.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-item">
+          <div class="feature-icon" aria-hidden="true">⚡</div>
+          <div>
+            <h4>Semantic Integrity</h4>
+            <p>Write code for AI and accessibility — the right element for the right job, always.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon" aria-hidden="true">📱</div>
+          <div>
+            <h4>Mobile-First</h4>
+            <p>Single column base, expanding with min-width queries at 768px and 1024px.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon" aria-hidden="true">♿</div>
+          <div>
+            <h4>Universal Access</h4>
+            <p>Strict WCAG adherence — keyboard navigation, ARIA labels, skip links, contrast ratios.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon" aria-hidden="true">🎨</div>
+          <div>
+            <h4>2025 Aesthetics</h4>
+            <p>Warm, grounded design language. Mocha Mousse, Ethereal Blue, Moonlit Grey.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon" aria-hidden="true">📐</div>
+          <div>
+            <h4>Fluid Typography</h4>
+            <p>CSS <code style="color:var(--blue)">clamp()</code> for type that breathes naturally across every viewport.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon" aria-hidden="true">✅</div>
+          <div>
+            <h4>Quality Verified</h4>
+            <p>Every submission passes a performance and accessibility audit before certification.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Interactive Tab Section ── -->
+    <section class="toggle-section" aria-labelledby="requirements-heading">
+      <p class="section-label">Guidelines</p>
+      <h2 class="section-title" id="requirements-heading">Qualification Criteria</h2>
+      <p class="section-desc">Everything you need to earn your badge and unlock Project 2.</p>
+
+      <div class="tab-bar" role="tablist" aria-label="Requirement categories" style="margin-top:1.5rem">
+        <button class="tab-btn active" role="tab" aria-selected="true"  aria-controls="tab-html" id="btn-html">HTML</button>
+        <button class="tab-btn"        role="tab" aria-selected="false" aria-controls="tab-css"  id="btn-css">CSS</button>
+        <button class="tab-btn"        role="tab" aria-selected="false" aria-controls="tab-js"   id="btn-js">JavaScript</button>
+        <button class="tab-btn"        role="tab" aria-selected="false" aria-controls="tab-a11y" id="btn-a11y">Accessibility</button>
+      </div>
+
+      <div id="tab-html" class="tab-panel active info-box" role="tabpanel" aria-labelledby="btn-html">
+        <h3>HTML5 Requirements</h3>
+        <ul class="checklist">
+          <li>Use semantic landmark elements: header, nav, main, article, footer</li>
+          <li>Every image has a descriptive alt attribute</li>
+          <li>Headings follow a logical h1 → h2 → h3 hierarchy</li>
+          <li>Forms include associated label elements</li>
+          <li>Document has a valid lang attribute on the html tag</li>
+          <li>No div-soup — the right element for the right purpose</li>
+        </ul>
+      </div>
+
+      <div id="tab-css" class="tab-panel info-box" role="tabpanel" aria-labelledby="btn-css" hidden>
+        <h3>CSS3 Requirements</h3>
+        <ul class="checklist">
+          <li>Mobile-first: single column base layout</li>
+          <li>Tablet breakpoint at min-width 768px</li>
+          <li>Desktop breakpoint at min-width 1024px</li>
+          <li>CSS Grid for macro page structure</li>
+          <li>Flexbox for component-level alignment</li>
+          <li>clamp() used for fluid, responsive typography</li>
+          <li>CSS custom properties (variables) throughout</li>
+          <li>Max 2 font families, 3 weights — Montserrat + Open Sans</li>
+        </ul>
+      </div>
+
+      <div id="tab-js" class="tab-panel info-box" role="tabpanel" aria-labelledby="btn-js" hidden>
+        <h3>JavaScript Requirements</h3>
+        <ul class="checklist">
+          <li>Vanilla JS only — no frameworks or libraries</li>
+          <li>Mobile navigation toggle (hamburger menu)</li>
+          <li>At least one interactive UI component (tabs, accordion, etc.)</li>
+          <li>Smooth scroll behaviour</li>
+          <li>Back-to-top button with scroll visibility logic</li>
+          <li>IntersectionObserver for scroll-triggered animations</li>
+        </ul>
+      </div>
+
+      <div id="tab-a11y" class="tab-panel info-box" role="tabpanel" aria-labelledby="btn-a11y" hidden>
+        <h3>Accessibility Requirements</h3>
+        <ul class="checklist">
+          <li>Skip-to-content link as the first focusable element</li>
+          <li>All interactive elements reachable and operable by keyboard</li>
+          <li>ARIA roles, labels, and states on custom components</li>
+          <li>Colour contrast ratio minimum 4.5:1 for text</li>
+          <li>Focus indicators visible and clear</li>
+          <li>No content relying on colour alone to convey meaning</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ── CTA / Contact ── -->
+    <section id="contact" class="cta-section fade-in" aria-labelledby="cta-heading">
+      <p class="section-label">Get Started</p>
+      <h2 class="section-title" id="cta-heading">Ready to Build?</h2>
+      <p>Open your IDE, initialise your repository, and begin with the blueprint. Your portfolio starts with the first line you write today.</p>
+      <div class="cta-form" role="form" aria-label="Get started form">
+        <label for="email-input" class="visually-hidden">Your email address</label>
+        <input
+          type="email"
+          id="email-input"
+          class="cta-input"
+          placeholder="your@email.com"
+          aria-label="Email address"
+        />
+        <button type="button" class="cta-submit" id="cta-submit-btn">Submit Project</button>
+      </div>
+      <p id="form-feedback" role="alert" aria-live="polite" style="margin-top:1rem;font-size:var(--fluid-xs);color:var(--mocha);display:none;"></p>
+    </section>
+
+  </main>
+
+  <!-- ══════ FOOTER ══════ -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo" aria-label="DecodeLabs Home"><span>D</span>ecodeLabs</a>
+        <p>Building the next generation of full-stack developers through real-world industrial training.</p>
+      </div>
+      <nav class="footer-col" aria-label="Project links">
+        <h4>Projects</h4>
+        <ul>
+          <li><a href="#">Project 1 — Frontend</a></li>
+          <li><a href="#">Project 2 — Backend</a></li>
+          <li><a href="#">Project 3 — Full Stack</a></li>
+          <li><a href="#">Project 4 — Deployment</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-col" aria-label="Company links">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About DecodeLabs</a></li>
+          <li><a href="mailto:decodelabs.tech@gmail.com">Contact Us</a></li>
+          <li><a href="https://www.decodelabs.tech" target="_blank" rel="noopener">Website</a></li>
+          <li><a href="#">Greater Lucknow, India</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 DecodeLabs. All rights reserved.</p>
+      <p>Batch 2026 · Industrial Training Kit · Project 1</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button id="back-top" aria-label="Back to top" title="Back to top">↑</button>
+
+  <!-- visually hidden utility -->
+  <style>
+    .visually-hidden {
+      position:absolute;width:1px;height:1px;
+      padding:0;margin:-1px;overflow:hidden;
+      clip:rect(0,0,0,0);white-space:nowrap;border:0;
+    }
+  </style>
+
+  <script src="project1-decode.Js" ></script>
+
+</body>
+</html>
