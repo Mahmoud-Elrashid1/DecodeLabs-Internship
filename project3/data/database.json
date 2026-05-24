@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice@decodelabs.tech",
+      "role": "admin",
+      "bio": "Lead instructor at DecodeLabs.",
+      "createdAt": "2026-01-10T08:00:00Z",
+      "updatedAt": null
+    },
+    {
+      "id": 2,
+      "name": "Bob Sharma",
+      "email": "bob@decodelabs.tech",
+      "role": "intern",
+      "bio": "Full stack intern, batch 2026.",
+      "createdAt": "2026-01-11T09:00:00Z",
+      "updatedAt": null
+    },
+    {
+      "id": 3,
+      "name": "Carol Lee",
+      "email": "carol@decodelabs.tech",
+      "role": "intern",
+      "bio": "Passionate about databases and systems.",
+      "createdAt": "2026-01-12T10:00:00Z",
+      "updatedAt": null
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Welcome to DecodeLabs Batch 2026",
+      "body": "Build with integrity. Validate everything. Respect the architecture.",
+      "category": "announcement",
+      "createdAt": "2026-01-10T10:00:00Z",
+      "updatedAt": null
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "title": "Lessons from Project 1",
+      "body": "Responsive design means thinking mobile-first every single time.",
+      "category": "project",
+      "createdAt": "2026-01-13T11:00:00Z",
+      "updatedAt": null
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "title": "Why Parameterized Queries Matter",
+      "body": "SQL injection exploits string concatenation. Never trust the client.",
+      "category": "project",
+      "createdAt": "2026-01-14T12:00:00Z",
+      "updatedAt": null
+    }
+  ],
+  "__counters": {
+    "users": 3,
+    "posts": 3
+  }
+}
